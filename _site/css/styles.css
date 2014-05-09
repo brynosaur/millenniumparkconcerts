@@ -97,10 +97,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 #wrapper {
     max-width: 600px;
     margin: 0 auto;
     padding: 3em 1em;
+}
+#top {
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    padding: 10px 8px;
+}
+#menu {
+    text-align: center;
+    font-size: 0.75em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    padding: 10px 8px;
 }
 
 
