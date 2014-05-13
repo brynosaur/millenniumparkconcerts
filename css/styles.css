@@ -76,8 +76,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: white;
-    border-top: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
     padding: 0.875em 0.5em;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -90,7 +89,7 @@ section.title, section.series {
     background-color: aquamarine;
 }
 section.show {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
 }
 section.show:last-of-type {
     border-bottom: none;
