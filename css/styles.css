@@ -78,7 +78,7 @@ body {
     left: 0;
     background-color: white;
     border-top: 1px solid #f2f2f2;
-    padding: 0.75em 0.5em;
+    padding: 0.875em 0.5em;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.1em;
@@ -101,7 +101,6 @@ section.show:last-of-type {
 }
 .main {
     margin: 0;
-    text-transform: uppercase;
     line-height: 1.1;
 }
 .support {
