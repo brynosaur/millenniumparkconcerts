@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
         <script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -21,26 +21,26 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header id="top">
+        <header id="navbar">
           <a href="{{ site.baseurl }}">Millennium Park Summer Concerts</a>
         </header>
 
-        <div id="wrapper">
+        <div id="content">
 
         {{ content }}
 
         </div>
 
         <nav id="menu">
-          <a href="{{ site.baseurl }}/downtown-sound" style="float: left; text-decoration: none;">Downtown Sound</a>
-          <a href="{{ site.baseurl }}/information" style="text-decoration: none;">Info</a>
-          <a href="{{ site.baseurl }}/loops-variations" style="float: right; text-decoration: none;">Loops and Variations</a>
+          <a href="{{ site.baseurl }}/downtown-sound" style="float: left;">Downtown Sound</a>
+          <a href="{{ site.baseurl }}/information">Info</a>
+          <a href="{{ site.baseurl }}/loops-variations" style="float: right;">Loops and Variations</a>
         </nav>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="{{ site.baseurl }}js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="{{ site.baseurl }}/js/plugins.js"></script>
+        <script src="{{ site.baseurl }}/js/main.js"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
