@@ -183,6 +183,9 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
+#concerts .row {
+    padding-top: 0;
+}
 .button {
     display: inline-block;
     text-align: center;
