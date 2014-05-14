@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 section .row {
     padding: 1.5em 1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
     body {
         font-size: 120%;
     }
