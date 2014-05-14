@@ -46,38 +46,96 @@ video {
 body {
     font-family: 'Karla', sans-serif; /* 4/5 weird letter spacing */
     letter-spacing: -0.0125em;
+    color: #222;
+}
+body.home #navbar, body.home #menu {
+    background-color: #fff;
+}
+body.downtown #navbar, body.downtown section.series, body.downtown #menu {
+    background-color: #E6F546;
+}
+body.loops #navbar, body.loops section.series, body.loops #menu {
+    background-color: #7FFFD4;
+}
+body.info #navbar, body.info section.title, body.info #menu {
+    background-color: #fff;
 }
 .row {
-    max-width: 768px;
+    max-width: 680px;
     margin: 0 auto;
-    padding: 1.5em 1em;
 }
 #navbar, #menu {
+    position: fixed;
     z-index: 100;
+    right: 0px;
+    left: 0px;
 }
 #navbar a, #menu a {
-    color: black;
+    color: #000;
 }
 #navbar {
     text-align: center;
     font-size: 0.75em;
     font-weight: 700;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: aquamarine;
-    padding: 0.625em 0.5em;
+    top: 0px;
+    padding: 0.625em 1em;
 }
 #menu {
+    width: 100%;
     text-align: center;
     font-size: 0.75em;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: #f2f2f2;
-    padding: 0.875em 0.5em;
+    bottom: 0px;
+}
+#menu a {
+    display: block;
+    float: left;
+    padding: 0.75em 0;
+    width: 33.3333%;
+    text-decoration: none;
+}
+#menu a:last-of-type {
+    float: right;
+}
+#menu a.current {
+    color: #0000FF;
+    font-weight: 700;
+}
+body.home #content {
+    background-image: url(../images/2014.png);
+    background-attachment: fixed;
+}
+body.loops #content {
+    background-image: url(../images/thurs.png);
+    background-attachment: fixed;
+}
+body.downtown #content {
+    background-image: url(../images/mon.png);
+    background-attachment: fixed;
+}
+body.info #content {
+    background-image: url(../images/info.png);
+    background-attachment: fixed;
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    body.home #content {
+        background-image: url(../images/2014@x2.png);
+        background-size: 36px 36px;
+    }
+    body.loops #content {
+        background-image: url(../images/thurs@x2.png);
+        background-size: 36px 36px;
+    }
+    body.downtown #content {
+        background-image: url(../images/mon@x2.png);
+        background-size: 36px 36px;
+    }
+    body.info #content {
+        background-image: url(../images/info@x2.png);
+        background-size: 36px 36px;
+    }
+}
+a {
+    color: blue;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.1em;
@@ -85,21 +143,27 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.025em;
     line-height: 1.2;
 }
-section.title, section.series {
-    background-color: aquamarine;
+section .row {
+    padding: 1.5em 1em;
 }
 section.show {
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 section.show:last-of-type {
     border-bottom: none;
+}
+body.loops .show header {
+    color: #0000FF;
+}
+body.downtown .show header {
+    color: #FF1493;
 }
 .main, .support {
     font-weight: 700;
     line-height: 1.1;
 }
 .main {
-    margin: 0;
+    margin-bottom: 0.25em;
     line-height: 1.1;
 }
 .support {
@@ -111,22 +175,23 @@ section.show:last-of-type {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
-/*.bio {
-    display: none;
-    position: fixed;
-    z-index: 200;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.button {
+    display: inline-block;
+    text-align: center;
     padding: 1em;
-    background-color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
-.bio p:first-of-type {
-    margin-top: 0;
-} */
-.open {
+.button.loops {
+    background-color: #7FFFD4;
+}
+.button.downtown {
+    background-color: #E6F546;
+}
+.button small {
     display: block;
+    color: rgba(0,0,0,0.25);
 }
 .credit {
     font-weight: 700;

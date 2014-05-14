@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Downtown Sound&#58; New Music Mondays · Millennium Park Summer Concerts</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="/css/styles.css">
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body class="downtown">
+
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -231,10 +232,12 @@
         </div>
 
         <nav id="menu">
-          <a href="/downtown-sound" style="float: left;">Downtown Sound</a>
-          <a href="/information">Info</a>
-          <a href="/loops-variations" style="float: right;">Loops and Variations</a>
+          <a class="downtown current" href="/downtown-sound">DTS</a>
+          <a class="loops " href="/loops-variations">L&V</a>
+          <a class="info " href="/information">INFO</a>
         </nav>
+
+        <!-- Javascripts -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
