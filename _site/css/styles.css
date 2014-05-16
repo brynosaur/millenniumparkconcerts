@@ -48,6 +48,9 @@ body {
     letter-spacing: -0.0125em;
     color: #222;
 }
+body.home {
+    text-align: center;
+}
 body.home #navbar, body.home #menu {
     background-color: #fff;
 }
@@ -100,7 +103,7 @@ body.info #navbar, body.info section.title, body.info #menu {
     color: #0000FF;
     font-weight: 700;
 }
-body.home #content {
+body.home {
     background-image: url(../images/2014.png);
     background-attachment: fixed;
 }
@@ -117,7 +120,7 @@ body.info #content {
     background-attachment: fixed;
 }
 @media all and (-webkit-min-device-pixel-ratio: 2) {
-    body.home #content {
+    body.home {
         background-image: url(../images/2014@x2.png);
         background-size: 36px 36px;
     }
@@ -145,6 +148,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 section .row {
     padding: 1.5em 1em;
+}
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 120%;
+    }
+    section .row {
+        padding: 5em 1.5em;
+    }
 }
 section.show {
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -175,13 +186,16 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
+#concerts .row {
+    padding-top: 0;
+}
 .button {
     display: inline-block;
     text-align: center;
     padding: 1em;
     font-weight: 700;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin: 0.5em;
 }
 .button.loops {
     background-color: #7FFFD4;
@@ -197,6 +211,9 @@ body.downtown .show header {
     font-weight: 700;
     text-align: center;
     padding-top: 1.5em;
+}
+.fb-share-button span {
+    vertical-align: baseline !important;
 }
 /* ==========================================================================
    Helper classes

@@ -103,7 +103,7 @@ body.info #navbar, body.info section.title, body.info #menu {
     color: #0000FF;
     font-weight: 700;
 }
-body.home #content {
+body.home {
     background-image: url(../images/2014.png);
     background-attachment: fixed;
 }
@@ -120,7 +120,7 @@ body.info #content {
     background-attachment: fixed;
 }
 @media all and (-webkit-min-device-pixel-ratio: 2) {
-    body.home #content {
+    body.home {
         background-image: url(../images/2014@x2.png);
         background-size: 36px 36px;
     }
@@ -195,7 +195,7 @@ body.downtown .show header {
     padding: 1em;
     font-weight: 700;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin: 0.5em;
 }
 .button.loops {
     background-color: #7FFFD4;
@@ -211,6 +211,9 @@ body.downtown .show header {
     font-weight: 700;
     text-align: center;
     padding-top: 1.5em;
+}
+.fb-share-button span {
+    vertical-align: baseline !important;
 }
 /* ==========================================================================
    Helper classes

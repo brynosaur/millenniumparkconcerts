@@ -8,7 +8,7 @@ $("document").ready(function() {
 
   var bio = $("section.bio");
 
-  $("#content").css("margin-top", navHeight).css("margin-bottom", menuHeight);
+  $("#content").css("padding-top", navHeight).css("padding-bottom", menuHeight);
 
 /*  show.click(function() {
     $(this).children().children("section.bio").addClass("open");
