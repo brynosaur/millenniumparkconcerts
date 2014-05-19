@@ -1,4 +1,4 @@
 name: Millennium Park Summer Concerts
 markdown: redcarpet
 pygments: true
-baseurl: "http://brynosaur.github.io/millenniumparkconcerts"
+baseurl: "http://concerts.brynosaur.com"
