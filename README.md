@@ -16,3 +16,8 @@ Loops & Variations
 ### Thursdays at 6:30pm, May 29 - July 3, 2014
 
 New music mixed with electronica.
+
+About
+-----
+
+Made by [@bryankveton](http://www.twitter.com/bryankveton).
