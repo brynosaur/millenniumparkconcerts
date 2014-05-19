@@ -117,6 +117,9 @@ body.info #navbar, body.info section.title, body.info #menu {
     color: #0000FF;
     font-weight: 700;
 }
+.home .row {
+    padding-top: 0;
+}
 body.home {
     background-image: url(../images/2014.png);
     background-attachment: fixed;
@@ -233,9 +236,20 @@ body.downtown .show header {
    Helper classes
    ========================================================================== */
 
-/*
- * Image replacement
- */
+/* Vertical Center */
+
+.banner, .banner-wrapper {
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.banner {
+    display: table;
+}
+.banner-wrapper {
+    display: table-cell;
+}
+
+/* Image replacement */
 
 .ir {
     background-color: transparent;
