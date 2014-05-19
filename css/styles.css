@@ -29,9 +29,7 @@ video {
     vertical-align: middle;
 }
 
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
+/* Browse Happy prompt */
 
 .browsehappy {
     margin: 0.2em 0;
@@ -40,28 +38,40 @@ video {
     padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* Site Styles */
+
 body {
     font-family: 'Karla', sans-serif; /* 4/5 weird letter spacing */
     letter-spacing: -0.0125em;
     color: #222;
 }
+
 body.home {
     text-align: center;
 }
+
+/* Home Colors */
+
 body.home #navbar, body.home #menu {
     background-color: #fff;
 }
+
+/* Downtown Sound Colors */
+
 body.downtown #navbar, body.downtown section.series, body.downtown #menu {
     background-color: #E6F546;
 }
+
+/* Loops & Variations Colors */
+
 body.loops #navbar, body.loops section.series, body.loops #menu {
     background-color: #7FFFD4;
 }
+
+/* Information Colors */
+
 body.info #navbar, body.info section.title, body.info #menu {
-    background-color: #fff;
+    background-color: aqua;
 }
 .row {
     max-width: 680px;
@@ -75,6 +85,7 @@ body.info #navbar, body.info section.title, body.info #menu {
 }
 #navbar a, #menu a {
     color: #000;
+    text-decoration: none;
 }
 #navbar {
     text-align: center;
@@ -82,6 +93,10 @@ body.info #navbar, body.info section.title, body.info #menu {
     font-weight: 700;
     top: 0px;
     padding: 0.625em 1em;
+}
+#navbar a {
+    display: block;
+    width: 100%;
 }
 #menu {
     width: 100%;
@@ -94,7 +109,6 @@ body.info #navbar, body.info section.title, body.info #menu {
     float: left;
     padding: 0.75em 0;
     width: 33.3333%;
-    text-decoration: none;
 }
 #menu a:last-of-type {
     float: right;
@@ -238,18 +252,14 @@ body.downtown .show header {
     height: 150%;
 }
 
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
+/* Hide from both screenreaders and browsers: h5bp.com/u */
 
 .hidden {
     display: none !important;
     visibility: hidden;
 }
 
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 
 .visuallyhidden {
     border: 0;
@@ -262,10 +272,7 @@ body.downtown .show header {
     width: 1px;
 }
 
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -277,50 +284,22 @@ body.downtown .show header {
     width: auto;
 }
 
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
+/* Hide visually and from screenreaders, but maintain layout */
 
 .invisible {
     visibility: hidden;
 }
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
 .clearfix {
     *zoom: 1;
 }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
@@ -333,10 +312,7 @@ body.downtown .show header {
     /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
+/* Print */
 
 @media print {
     * {
