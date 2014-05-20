@@ -14,7 +14,10 @@ $("document").ready(function() {
   /* Adjust padding for fixed elements */
 
   $(".series").css("padding-top", navHeight);
+
   $("#content").css("padding-bottom", menuHeight);
+
+  /* Vertical Align */
 
   $(".banner").css("height", windowHeight);
 
