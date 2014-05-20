@@ -19,15 +19,11 @@
     <body class="{% if page.url == '/index.html' %}home{% endif %}{% if page.url == '/downtown-sound/index.html' %}downtown{% endif %}{% if page.url == '/loops-variations/index.html' %}loops{% endif %}{% if page.url == '/information/index.html' %}info{% endif %}">
 
 
-        {% include header.html %}
-
         <div id="content">
 
         {{ content }}
 
         </div>
-
-        {% include menu.html %}
 
         {% include scripts.html %}
 
