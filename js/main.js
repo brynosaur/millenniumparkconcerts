@@ -11,7 +11,10 @@ $("document").ready(function() {
 
   var bio = $("section.bio");
 
-  $("#content").css("padding-top", navHeight).css("padding-bottom", menuHeight);
+  /* Adjust padding for fixed elements */
+
+  $(".series").css("padding-top", navHeight);
+  $("#content").css("padding-bottom", menuHeight);
 
   $(".banner").css("height", windowHeight);
 
