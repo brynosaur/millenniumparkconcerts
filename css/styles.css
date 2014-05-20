@@ -231,16 +231,14 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
-#concerts .row {
-    padding-top: 0;
-}
 .button {
-    display: inline-block;
+    display: block;
     text-align: center;
     padding: 1em;
     font-weight: 700;
     text-decoration: none;
     margin: 0.5em;
+    color: rgba(0,0,0,0.6);
 }
 .button.loops {
     background-color: #7FFFD4;
@@ -250,7 +248,12 @@ body.downtown .show header {
 }
 .button small {
     display: block;
+    font-size: 0.75em;
     color: rgba(0,0,0,0.25);
+}
+.button p {
+    font-weight: normal;
+    font-size: 0.75em;
 }
 .credit {
     font-weight: 700;
