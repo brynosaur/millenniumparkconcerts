@@ -64,19 +64,19 @@ body.home #titlebar, body.home #menu {
 
 /* Downtown Sound Colors */
 
-body.downtown #titlebar, body.downtown section.series, body.downtown #menu {
+body.downtown #titlebar, body.downtown section.masthead, body.downtown #menu {
     background-color: #E6F546;
 }
 
 /* Loops & Variations Colors */
 
-body.loops #titlebar, body.loops section.series, body.loops #menu {
+body.loops #titlebar, body.loops section.masthead, body.loops #menu {
     background-color: #7FFFD4;
 }
 
 /* Information Colors */
 
-body.info #titlebar, body.info section.title, body.info #menu {
+body.info #titlebar, body.info section.masthead, body.info #menu {
     background-color: #fff;
 }
 

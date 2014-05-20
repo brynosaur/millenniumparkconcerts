@@ -5,7 +5,7 @@ $("document").ready(function() {
   var windowHeight = $(window).outerHeight();
   var navHeight = $("#titlebar").outerHeight();
   var menuHeight = $("#menu").outerHeight();
-  var seriesHeight = $(".series, .title").outerHeight();
+  var mastheadHeight = $(".masthead").outerHeight();
 
   var show = $("section.show");
 
@@ -13,7 +13,7 @@ $("document").ready(function() {
 
   /* Adjust padding for fixed elements */
 
-  $(".series").css("padding-top", navHeight);
+  $(".masthead").css("padding-top", navHeight);
 
   $("#content").css("padding-bottom", menuHeight);
 
@@ -26,7 +26,7 @@ $("document").ready(function() {
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
 
-      if (scroll >= seriesHeight) {
+      if (scroll >= mastheadHeight) {
           header.removeClass('site-header').addClass("page-header");
       } else {
           header.removeClass("page-header").addClass('site-header');
