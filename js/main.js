@@ -1,10 +1,11 @@
 $("document").ready(function() {
 
-  var navHeight = $("#navbar").outerHeight();
-
-  var menuHeight = $("#menu").outerHeight();
+/* Get some heights*/
 
   var windowHeight = $(window).outerHeight();
+  var navHeight = $("#navbar").outerHeight();
+  var menuHeight = $("#menu").outerHeight();
+  var seriesHeight = $(".series, .title").outerHeight();
 
   var show = $("section.show");
 
@@ -13,6 +14,19 @@ $("document").ready(function() {
   $("#content").css("padding-top", navHeight).css("padding-bottom", menuHeight);
 
   $(".banner").css("height", windowHeight);
+
+  var header = $("#navbar");
+
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= seriesHeight) {
+          header.removeClass('site-header').addClass("page-header");
+      } else {
+          header.removeClass("page-header").addClass('site-header');
+      }
+  });
+
 
 /*  show.click(function() {
     $(this).children().children("section.bio").addClass("open");
