@@ -58,25 +58,25 @@ body.home {
 
 /* Home Colors */
 
-body.home #navbar, body.home #menu {
+body.home #titlebar, body.home #menu {
     background-color: #fff;
 }
 
 /* Downtown Sound Colors */
 
-body.downtown #navbar, body.downtown section.series, body.downtown #menu {
+body.downtown #titlebar, body.downtown section.series, body.downtown #menu {
     background-color: #E6F546;
 }
 
 /* Loops & Variations Colors */
 
-body.loops #navbar, body.loops section.series, body.loops #menu {
+body.loops #titlebar, body.loops section.series, body.loops #menu {
     background-color: #7FFFD4;
 }
 
 /* Information Colors */
 
-body.info #navbar, body.info section.title, body.info #menu {
+body.info #titlebar, body.info section.title, body.info #menu {
     background-color: #fff;
 }
 
@@ -119,27 +119,27 @@ body.info #content {
     }
 }
 
-/* Menu and navbar */
+/* Menu and titlebar */
 
-#navbar, #menu {
+#titlebar, #menu {
     position: fixed;
     z-index: 100;
     right: 0px;
     left: 0px;
 }
-#navbar a, #menu a {
+#titlebar a, #menu a {
     color: #000;
     text-decoration: none;
 }
-#navbar a:hover, #menu a:hover {
+#titlebar a:hover, #menu a:hover {
     color: #0000FF;
 }
-#navbar {
+#titlebar {
     text-align: center;
     top: 0px;
     padding: 0.625em 1em;
 }
-#navbar a {
+#titlebar a {
     display: block;
     width: 100%;
 }

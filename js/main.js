@@ -3,7 +3,7 @@ $("document").ready(function() {
 /* Get some heights*/
 
   var windowHeight = $(window).outerHeight();
-  var navHeight = $("#navbar").outerHeight();
+  var navHeight = $("#titlebar").outerHeight();
   var menuHeight = $("#menu").outerHeight();
   var seriesHeight = $(".series, .title").outerHeight();
 
@@ -15,7 +15,7 @@ $("document").ready(function() {
 
   $(".banner").css("height", windowHeight);
 
-  var header = $("#navbar");
+  var header = $("#titlebar");
 
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
