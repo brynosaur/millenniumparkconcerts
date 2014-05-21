@@ -273,6 +273,16 @@ body.downtown .show header {
 .fb-share-button span {
     vertical-align: baseline !important;
 }
+.donate {
+    background-color: #0000FF;
+    border: none;
+    padding: 1em;
+    margin: 1.5em 0;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: -0.0125em;
+    color: white;
+}
 
 /* ==========================================================================
    Helper classes
