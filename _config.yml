@@ -1,5 +1,4 @@
 name:         Millennium Park Summer Concerts
-markdown:     redcarpet
 pygments:     true
 baseurl:      "http://concerts.brynosaur.com"
 url:          http://localhost:4000
