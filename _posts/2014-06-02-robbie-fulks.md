@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Robbie Fulks"
-date:   2014-06-07
+date:   2014-06-02
 support: "Funeral Bonsai Wedding"
 categories: downtown-sound
 slug: robbie-fulks
