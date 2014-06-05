@@ -3,20 +3,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ page.title }} · Millennium Park Summer Concerts</title>
-        <meta name="description" content="The unofficial, 2014, mobile-friendly guide to Millennium Park's wonderful summer concert series.">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-        <script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body class="{% if page.url == '/index.html' %}home{% endif %}{% if page.url == '/downtown-sound/index.html' %}downtown{% endif %}{% if page.url == '/loops-and-variations/index.html' %}loops{% endif %}{% if page.url == '/information/index.html' %}info{% endif %}">
+    {% include head.html %}
+
+    <body class="{{ page.class }}">
 
 
         {% include header.html %}
@@ -30,8 +20,6 @@
         {% include menu.html %}
 
         {% include scripts.html %}
-
-        {% include social.html %}
 
         {% include google.html %}
 
