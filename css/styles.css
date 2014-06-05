@@ -270,8 +270,13 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
+.loops .fa-chevron-right {
+    color: #0000FF;
+}
+.downtown .fa-chevron-right {
+    color: #FF1493;
+}
 .fa-chevron-right {
-    color: rgba(0,0,0,0.1);
     position: absolute;
     font-size: 1em;
     top: 50%;
