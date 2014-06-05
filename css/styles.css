@@ -54,6 +54,7 @@ body.home {
 .row {
     max-width: 35em;
     margin: 0 auto;
+    position: relative;
 }
 
 /* Home Colors */
@@ -268,6 +269,14 @@ body.downtown .show header {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 0.5em;
+}
+.fa-chevron-right {
+    color: rgba(0,0,0,0.1);
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    margin-top: -0.5em;
+    right: 1.5em;
 }
 .button {
     display: block;
