@@ -23,7 +23,7 @@ $("document").ready(function() {
 
   $(".banner").css("height", windowHeight);
 
-  var header = $("#titlebar");
+  var header = $("#titlebar.scroll-title");
 
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();

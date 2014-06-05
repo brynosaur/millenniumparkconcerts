@@ -1,4 +1,11 @@
-<header id="titlebar">
-  <h1 class="site-title"><a href="/">Millennium Park Summer Concerts</a></h1>
-  <h2 class="page-title"><a href="#content">{{ page.title }}</a></h2>
-</header>
+{% if page.path contains '_posts' %}
+  <header id="titlebar">
+    <h1 class="site-title"><a href="/">Millennium Park Summer Concerts</a></h1>
+    <h2 class="page-title"><a href="#content">{{ page.title }}</a></h2>
+  </header>
+{% else %}
+  <header id="titlebar" class="scroll-title">
+    <h1 class="site-title"><a href="/">Millennium Park Summer Concerts</a></h1>
+    <h2 class="page-title"><a href="#content">{{ page.title }}</a></h2>
+  </header>
+{% endif %}
