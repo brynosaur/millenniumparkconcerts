@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 body {
-    font-size: 90%;
+    font-size: 95%;
 }
 section .row {
     padding: 2em 1.5em;
@@ -239,13 +239,15 @@ section .row {
 }
 
 /* Shows */
-
+a.show:focus {
+    outline: 0;
+}
 a.show {
     display: block;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 a.show:last-of-type {
-    /*border-bottom: none;*/
+    border-bottom: none;
 }
 body.loops .show header {
     color: #0000FF;
@@ -270,7 +272,7 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
-.fa-chevron-right {
+.fa-angle-right {
     color: rgba(0,0,0,0.1);
     position: absolute;
     font-size: 1em;
