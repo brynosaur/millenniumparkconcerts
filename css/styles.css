@@ -80,49 +80,6 @@ body.info #titlebar, body.info section.masthead, body.info #menu {
     background-color: #fff;
 }
 
-/* Background Images */
-
-body.home #content {
-    background-image: url(../images/2014.png);
-    background-attachment: fixed;
-}
-body.loops #content {
-    background-image: url(../images/thurs.png);
-    background-attachment: fixed;
-}
-body.downtown #content {
-    background-image: url(../images/mon.png);
-    background-attachment: fixed;
-}
-body.info #content {
-    background-image: url(../images/info.png);
-    background-attachment: fixed;
-}
-body.detail #content {
-    background: none;
-}
-@media all and (-webkit-min-device-pixel-ratio: 2) {
-    body.home #content {
-        background-image: url(../images/2014@x2.png);
-        background-size: 36px 36px;
-    }
-    body.loops #content {
-        background-image: url(../images/thurs@x2.png);
-        background-size: 36px 36px;
-    }
-    body.downtown #content {
-        background-image: url(../images/mon@x2.png);
-        background-size: 36px 36px;
-    }
-    body.info #content {
-        background-image: url(../images/info@x2.png);
-        background-size: 36px 36px;
-    }
-    body.detail #content {
-        background: none;
-    }
-}
-
 /* Menu and titlebar */
 
 #titlebar, #menu {
@@ -199,6 +156,70 @@ section .row {
     }
     section .row {
         padding: 5em 1.5em;
+    }
+
+    /* Background Images */
+
+    body.home #content {
+        background-image: url(../images/2014.png);
+        background-attachment: fixed;
+    }
+    body.loops #content {
+        background-image: url(../images/thurs.png);
+        background-attachment: fixed;
+    }
+    body.downtown #content {
+        background-image: url(../images/mon.png);
+        background-attachment: fixed;
+    }
+    body.info #content {
+        background-image: url(../images/info.png);
+        background-attachment: fixed;
+    }
+    body.detail #content {
+        background: none;
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) {
+        body.home #content {
+            background-image: url(../images/2014@x2.png);
+            background-size: 36px 36px;
+        }
+        body.loops #content {
+            background-image: url(../images/thurs@x2.png);
+            background-size: 36px 36px;
+        }
+        body.downtown #content {
+            background-image: url(../images/mon@x2.png);
+            background-size: 36px 36px;
+        }
+        body.info #content {
+            background-image: url(../images/info@x2.png);
+            background-size: 36px 36px;
+        }
+        body.detail #content {
+            background: none;
+        }
+    }
+    @media all and (-webkit-min-device-pixel-ratio: 2) {
+        body.home #content {
+            background-image: url(../images/2014@x2.png);
+            background-size: 36px 36px;
+        }
+        body.loops #content {
+            background-image: url(../images/thurs@x2.png);
+            background-size: 36px 36px;
+        }
+        body.downtown #content {
+            background-image: url(../images/mon@x2.png);
+            background-size: 36px 36px;
+        }
+        body.info #content {
+            background-image: url(../images/info@x2.png);
+            background-size: 36px 36px;
+        }
+        body.detail #content {
+            background: none;
+        }
     }
 }
 .site-title, .page-title {
