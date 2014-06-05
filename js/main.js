@@ -15,6 +15,8 @@ $("document").ready(function() {
 
   $(".masthead").css("padding-top", navHeight);
 
+  $(".detail").css("padding-top", navHeight);
+
   $("#content").css("padding-bottom", menuHeight);
 
   /* Vertical Align */

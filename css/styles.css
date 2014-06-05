@@ -218,11 +218,12 @@ section .row {
 
 /* Shows */
 
-section.show {
+a.show {
+    display: block;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-section.show:last-of-type {
-    border-bottom: none;
+a.show:last-of-type {
+    /*border-bottom: none;*/
 }
 body.loops .show header {
     color: #0000FF;
@@ -278,6 +279,9 @@ body.downtown .show header {
 }
 .fb-share-button span {
     vertical-align: baseline !important;
+}
+.share {
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 .donate {
     background-color: #0000FF;
