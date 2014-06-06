@@ -272,6 +272,9 @@ body.downtown .show header {
     text-transform: uppercase;
     margin-bottom: 0.5em;
 }
+span.time {
+    text-transform: none;
+}
 .fa-angle-right {
     color: rgba(0,0,0,0.1);
     position: absolute;
