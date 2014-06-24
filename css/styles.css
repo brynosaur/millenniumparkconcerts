@@ -185,7 +185,18 @@ a.show:focus {
 }
 a.show {
     display: block;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.downtown a.show {
+    border-bottom: 1px solid rgba(230,245,70,0.75);
+}
+.downtown .more-info {
+    color: rgba(230,245,70,0.75);
+}
+.loops a.show {
+    border-bottom: 1px solid rgba(127,255,212,0.75);
+}
+.loops .more-info {
+    color: rgba(127,255,212,0.75);
 }
 a.show:last-of-type {
     border-bottom: none;
@@ -216,13 +227,12 @@ body.downtown .show header {
 span.time {
     text-transform: none;
 }
-.fa-angle-right {
-    color: rgba(0,0,0,0.1);
+.more-info {
     position: absolute;
-    font-size: 1em;
+    font-size: 1.5em;
     top: 50%;
     margin-top: -0.5em;
-    right: 1.5em;
+    right: 0.66666em;
 }
 .button {
     display: block;
