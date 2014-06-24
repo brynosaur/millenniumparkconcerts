@@ -78,7 +78,7 @@ body.loops #titlebar, body.loops section.masthead, body.loops #menu {
 /* Information Colors */
 
 body.info #titlebar, body.info section.masthead, body.info #menu {
-    background-color: #fff;
+    background-color: lightcyan;
 }
 
 /* Menu and titlebar */
