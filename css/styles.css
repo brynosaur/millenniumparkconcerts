@@ -102,13 +102,12 @@ body.info #titlebar, body.info section.masthead, body.info #menu {
     padding: 0.625em 1em;
 }
 #titlebar a {
-    display: block;
-    width: 100%;
+    display: inline-block;
 }
 #menu {
     width: 100%;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 1em;
     bottom: 0px;
 }
 #menu a {
@@ -116,9 +115,6 @@ body.info #titlebar, body.info section.masthead, body.info #menu {
     float: left;
     padding: 0.75em 0;
     width: 33.3333%;
-}
-#menu a:last-of-type {
-    float: right;
 }
 #menu a.current {
     color: #0000FF;
@@ -225,17 +221,21 @@ section .row {
 }
 .site-title, .page-title {
     margin: 0;
-    font-size: 0.75em;
+    font-size: 1em;
     font-weight: 700;
+    display: inline;
 }
 .page-title {
     display: none;
 }
 .page-header .page-title {
-    display: block;
+    display: inline-block;
 }
 .site-header .page-title, .page-header .site-title {
     display: none;
+}
+.info-link {
+    float: right;
 }
 
 /* Shows */
