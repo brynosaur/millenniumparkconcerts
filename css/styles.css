@@ -29,15 +29,6 @@ video {
     vertical-align: middle;
 }
 
-/* Browse Happy prompt */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
 /* GLOBAL STYLES */
 
 body {
@@ -77,7 +68,7 @@ body.loops #titlebar, body.loops section.masthead, body.loops #menu {
 
 /* Information Colors */
 
-body.info #titlebar, body.info section.masthead, body.info #menu {
+body.info #titlebar, body.info section.masthead, body.info #menu, .credit {
     background-color: lightcyan;
 }
 
@@ -142,6 +133,10 @@ body {
 section .row {
     padding: 2em 1.5em;
 }
+.credit {
+    padding: 5em;
+    text-align: center;
+}
 @media screen and (min-width: 481px) {
     body {
         font-size: 100%;
@@ -173,13 +168,15 @@ section .row {
 .site-header .page-title, .page-header .site-title {
     display: none;
 }
-.info-link {
+.info-link, .back-link {
     position: absolute;
-    right: 1em;
+    padding: 0 1em;
+}
+.info-link {
+    right: 0;
 }
 .back-link {
-    position: absolute;
-    left: 1em;
+    left: 0;
 }
 
 /* Shows */
@@ -240,7 +237,6 @@ span.time {
 .button {
     display: block;
     text-align: center;
-    padding: 1em;
     font-weight: 700;
     text-decoration: none;
     color: rgba(0,0,0,0.75);
@@ -260,11 +256,6 @@ span.time {
     font-weight: normal;
     font-size: 1em;
     margin-bottom: 0;
-}
-.credit {
-    font-weight: 700;
-    text-align: center;
-    padding-top: 1.5em;
 }
 .fb-share-button span {
     vertical-align: baseline !important;
