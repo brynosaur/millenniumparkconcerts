@@ -1,11 +1,10 @@
-{% if page.path contains '_posts' %}
-  <header id="titlebar">
+<header id="titlebar" {% unless page.path contains '_posts' %}class="scroll-title"{% endunless %}>
     <h1 class="site-title"><a href="/">Millennium Park Concerts</a></h1>
-  </header>
-{% else %}
-  <header id="titlebar" class="scroll-title">
-    <h1 class="site-title"><a href="/">Millennium Park Concerts</a></h1>
+    {% unless page.path contains '_posts' %}
     <h2 class="page-title"><a href="#content">{{ page.title }}</a></h2>
+    {% endunless %}
     <a class="info-link" href="{{ site.baseurl }}/information"><i class="fa fa-question"></i></a>
+    {% if page.path contains '_posts' %}
+    <a class="back-link" href="/{{ page.categories }}/#{{ page.slug }}"><i class="fa fa-arrow-left"></i></a>
+    {% endif %}
   </header>
-{% endif %}

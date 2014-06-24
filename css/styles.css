@@ -107,7 +107,7 @@ body.info #titlebar, body.info section.masthead, body.info #menu {
 #menu {
     width: 100%;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9375em;
     bottom: 0px;
 }
 #menu a {
@@ -236,6 +236,9 @@ section .row {
 }
 .info-link {
     float: right;
+}
+.back-link {
+    float: left;
 }
 
 /* Shows */
