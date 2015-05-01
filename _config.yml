@@ -1,6 +1,6 @@
 name:         Millennium Park Summer Concerts
 pygments:     true
-baseurl:      "http://concerts.brynosaur.com"
+baseurl:      "http://downtownsound.net"
 url:          http://localhost:4000
 permalink:    /:categories/:title/
 future:       true
