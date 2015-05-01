@@ -6,12 +6,14 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #7FFFD4;
+    color: #FFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #7FFFD4;
+    color: #FFF;
     text-shadow: none;
 }
 hr {
@@ -31,6 +33,10 @@ video {
 
 /* GLOBAL STYLES */
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Karla', sans-serif; /* 4/5 weird letter spacing */
     letter-spacing: -0.0125em;
@@ -48,28 +54,35 @@ body.home {
     position: relative;
 }
 
-/* Home Colors */
-
-body.home section.masthead {
-    background-color: #fff;
+#titlebar, .masthead {
+    text-align: center;
 }
 
-/* Downtown Sound Colors */
-
-body.downtown #titlebar, body.downtown section.masthead, body.downtown #menu {
-    background-color: #E6F546;
+#titlebar {
+    background: #7FFFD4;
+}
+.masthead {
+    background: #7FFFD4;
+}
+.home {
+    background: #000;
 }
 
-/* Loops & Variations Colors */
+/* Home Page */
 
-body.loops #titlebar, body.loops section.masthead, body.loops #menu {
-    background-color: #7FFFD4;
+.banner {
+    color: #7FFFD4;
 }
-
-/* Information Colors */
-
-body.info #titlebar, body.info section.masthead, body.info #menu, .credit {
-    background-color: lightcyan;
+.hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1000;
+    background: url(../images/downtown-sound.jpg);
+    background-size: cover;
+    opacity: 0.5;
 }
 
 /* Menu and titlebar */
@@ -81,11 +94,8 @@ body.info #titlebar, body.info section.masthead, body.info #menu, .credit {
     left: 0px;
 }
 #titlebar a, #menu a {
-    color: #000;
+    color: #222;
     text-decoration: none;
-}
-#titlebar a:hover, #menu a:hover {
-    color: #0000FF;
 }
 #titlebar {
     text-align: center;
@@ -99,30 +109,34 @@ body.info #titlebar, body.info section.masthead, body.info #menu, .credit {
     width: 100%;
     text-align: center;
     font-size: 0.9375em;
+    text-transform: uppercase;
     bottom: 0px;
+    background-color: #ffffff;
+    box-shadow: 0px -2px 2px rgba(0,0,0,0.08);
 }
 #menu a {
     display: block;
     float: left;
     padding: 0.75em 0;
-    width: 50%;
+    width: 33.333333%;
+    color: rgba(0,0,0,0.5);
 }
 #menu a.current {
-    color: #0000FF;
+    color: #000;
     font-weight: 700;
 }
 
 /* Typography and links */
 
 a {
-    color: blue;
+    color: #FF7D64;
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.1em;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.5em;
     letter-spacing: -0.025em;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 h5 {
     margin-bottom: 2em;
@@ -168,15 +182,17 @@ section .row {
 .site-header .page-title, .page-header .site-title {
     display: none;
 }
-.info-link, .back-link {
+.time-label {
+    font-size: 0.625em;
+    padding: 0.25em;
+    border: 2px solid #222;
+}
+.info-link {
     position: absolute;
     padding: 0 1em;
 }
 .info-link {
     right: 0;
-}
-.back-link {
-    left: 0;
 }
 
 /* Shows */
@@ -186,34 +202,24 @@ a.show:focus {
 a.show {
     display: block;
 }
-.downtown a.show {
-    border-bottom: 1px solid #E6F546;
+a.show {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-.downtown .more-info {
-    color: #E6F546;
-}
-.loops a.show {
-    border-bottom: 1px solid #7FFFD4;
-}
-.loops .more-info {
-    color: #7FFFD4;
+.more-info {
+    color: #000;
 }
 a.show:last-of-type {
     border-bottom: none;
 }
-body.loops .show header {
-    color: #0000FF;
-}
-body.downtown .show header {
-    color: #FF1493;
+.show header {
+    color: #FF7D64;
 }
 .main, .support {
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.3;
 }
 .main {
     margin-bottom: 0.25em;
-    line-height: 1.1;
 }
 .support {
     font-size: 1.25em;
@@ -234,29 +240,6 @@ span.time {
     margin-top: -0.5em;
     right: 0.66666em;
 }
-.button {
-    display: block;
-    text-align: center;
-    font-weight: 700;
-    text-decoration: none;
-    color: rgba(0,0,0,0.75);
-}
-.button.loops {
-    background-color: #7FFFD4;
-}
-.button.downtown {
-    background-color: #E6F546;
-}
-.button small {
-    display: block;
-    font-size: 0.875em;
-    color: rgba(0,0,0,0.25);
-}
-.button p {
-    font-weight: normal;
-    font-size: 1em;
-    margin-bottom: 0;
-}
 .fb-share-button span {
     vertical-align: baseline !important;
 }
@@ -272,6 +255,15 @@ span.time {
     font-family: 'Karla', sans-serif;
     letter-spacing: -0.0125em;
     color: white;
+}
+.button {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 1em; auto;
+    color: #000;
+    background-color: #7FFFD4;
+    padding: 1em 1.325em;
 }
 
 /* ==========================================================================

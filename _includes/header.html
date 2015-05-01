@@ -1,10 +1,7 @@
 <header id="titlebar" {% unless page.path contains '_posts' %}class="scroll-title"{% endunless %}>
-  <h1 class="site-title"><a href="/">Millennium Park Concerts</a></h1>
+  <h1 class="site-title"><a href="/">Downtown Sound 2015</a></h1>
   {% unless page.path contains '_posts' %}
   <h2 class="page-title"><a href="#content">{{ page.title }}</a></h2>
   {% endunless %}
-  {% if page.path contains '_posts' %}
-  <a class="back-link" href="/{{ page.categories }}/#{{ page.slug }}"><i class="fa fa-arrow-left"></i></a>
-  {% endif %}
-  <a class="info-link" href="{{ site.baseurl }}/information"><i class="fa fa-question"></i></a>
+  <a class="info-link" href="{{ site.baseurl }}/info"><i class="fa fa-question"></i></a>
 </header>
