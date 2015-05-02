@@ -4,6 +4,8 @@ title:  "The London Souls"
 date:   2015-06-11
 support: "Eggnoise"
 categories: thursday
+track_1: the_london_souls
+track_2: eggnoise
 ---
 
 **[The London Souls'](http://thelondonsouls.com "The London Souls")** unique reinterpretation of classic hard-hitting rock and roll recalls elements of the past with an ever-present boundless energy. Tash Neal and Chris St. Hilaire have been nothing short of a best-kept secret among New York City concertgoers since the band’s formation in 2008, building a fervent and dynamic fan base.

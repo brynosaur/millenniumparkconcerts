@@ -4,6 +4,8 @@ title:  "Ondatrópica"
 date:   2015-07-16
 support: "Helado Negro"
 categories: thursday
+track_1: ondatropica
+track_2: helado_negro
 ---
 
 Colombian musician Mario Galeano, the force behind the band Frente Cumbiero, and English producer Will Holland (aka Quantic) have joined forces to create the **[Ondatrópica](http://ondatropica.com "Ondatrópica")** project—supported by the British Council to explore and expand the tropical sound of Colombia in its rawest form, and to marry it with the cool sound of London.

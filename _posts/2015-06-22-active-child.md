@@ -4,6 +4,8 @@ title:  "Active Child"
 date:   2015-06-22
 support: "Matt Ulery’s In The Ivory featuring eighth blackbird"
 categories: monday
+track_1: active_child
+track_2: matt_ulery
 ---
 
 LA-based multi-instrumentalist Patrick Grossi, aka [Active Child](http://activechildmusic.com "Active Child"), will present the Chicago live premiere of his highly anticipated sophomore full-length album, *Mercy*. Known for his porcelain falsetto and cascading harp, Active Child’s live show shimmers with lush arrangements, stunning visuals and a talented team of backing musicians.

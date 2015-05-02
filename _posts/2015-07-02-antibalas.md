@@ -4,6 +4,8 @@ title:  "Antibalas"
 date:   2015-07-02
 support: "Sonny Knight and The Lakers"
 categories: thursday
+track_1: antibalas
+track_2: sonny_knight
 ---
 
 Born in a Brooklyn warehouse in 1997, 12-piece ensemble **[Antibalas](http://antibalas.com "Antibalas")** is credited with introducing Afrobeat to a wider global audience, influencing countless musicians and developing a live show that is the stuff of legend. On the heels of the hit musical FELA!, on which several members collaborated, Antibalas has reunited with former member and producer Gabe Roth.

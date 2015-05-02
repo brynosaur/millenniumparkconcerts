@@ -4,6 +4,8 @@ title:  "Murder by Death"
 date:   2015-07-20
 support: "Banditos"
 categories: monday
+track_1: murder_by_death
+track_2: banditos
 ---
 
 On the surface, **[Murder By Death](http://murderbydeath.com "Murder by Death")** is a Bloomington, Ind. quintet with a wry, ominous name. But behind the geography and moniker is a band of meticulous and literary songwriters matched by a specific brand of brooding, anthem-riding balladry and orchestral indie rock. Their latest release, *Big Dark Love*, is the band’s seventh full-length album.

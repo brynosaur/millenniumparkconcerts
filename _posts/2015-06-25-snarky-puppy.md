@@ -4,6 +4,8 @@ title:  "Snarky Puppy"
 date:   2015-06-25
 support: "Third Coast Percussion & Friends Celebrate Terry Riley’s “In C”"
 categories: thursday
+track_1: snarky_puppy
+track_2: third_coast_percussion
 ---
 
 **[Snarky Puppy](http://snarkypuppy.ropeadope.com "Snarky Puppy")** seamlessly fuses a deep knowledge and respect for musical tradition with sonic and conceptual innovation. The New York-based quasi-collective has gone from the best-kept secret to one of the most respected names in instrumental music.

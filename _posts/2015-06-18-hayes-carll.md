@@ -4,6 +4,8 @@ title:  "Hayes Carll"
 date:   2015-06-18
 support: "Mother Falcon"
 categories: thursday
+track_1: hayes_carll
+track_2: mother_falcon
 ---
 
 The 39-year-old Texan **[Hayes Carll](http://hayescarll.com "Hayes Carll")** connects with music lovers across genres lines. Playing rock clubs and honky tonks, Bonnaroo, Stones Fest, SXSW and NXNE, he and his band the Gulf Coast Orchestra merge a truculent singer/songwriter take that combines Ray Wylie Hubband’s lean freewheeling squalor with Todd Snider’s brazen Gen Y reality.

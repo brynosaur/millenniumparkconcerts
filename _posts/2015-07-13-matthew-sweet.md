@@ -4,6 +4,8 @@ title:  "Matthew Sweet"
 date:   2015-07-13
 support: "In Tall Buildings"
 categories: monday
+track_1: matthew_sweet
+track_2: in_tall_buildings
 ---
 
 After spending the ’80s as an unappreciated jangle pop guitarist and solo artist with albums released on Columbia and A&M Records, **[Matthew Sweet](http://matthewsweet.com "Matthew Sweet")** emerged in 1991 as the leading figure of the American power pop revival. Sweet made his most recent record, Modern Art (2011), with Velvet Crush founder Ric Menck on drums and Dennis Taylor on guitar.

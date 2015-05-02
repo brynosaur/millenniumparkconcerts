@@ -4,6 +4,8 @@ title:  "Los Cojolites"
 date:   2015-07-23
 support: "David Wax Museum"
 categories: thursday
+track_1: los_cojolites
+track_2: david_wax_museum
 ---
 
 **[Los Cojolites](http://facebook.com/loscojolites "Los Cojolites")** was born in 1995 as part of a project dedicated to recover artistic expressions of indigenous people in the ancient town of Cosoleacaque, Veracruz, Mexico. In December 2014, they presented their fourth production, Zapateando, which includes traditional sones.
