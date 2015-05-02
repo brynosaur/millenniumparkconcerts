@@ -4,6 +4,8 @@ title:  "San Fermin"
 date:   2015-06-01
 support: "Sō Percussion"
 categories: monday
+track_1: san_fermin
+track_2: so_percussion
 ---
 
 **[San Fermin](http://sanferminband.com "San Fermin")** is the brainchild of Brooklyn’s Ellis Ludwig-Leone, an artist with a broad musical background who pursued musical studies at Yale and sharpened his teeth working with the avant-garde classical composer Nico Muhly (Björk, Grizzly Bear, Antony & the Johnsons).
