@@ -1,12 +1,12 @@
-<a href="{{ post.url }}" id="{{ post.slug }}" class="show">
+<a href="{{ post.url }}" id="{{ post.slug }}" class="show list">
   <section>
     <div class="row">
       <header>
-        <time class="date">{{ post.date | date: "%A, %B %-d" }}</time>
-        <h1 class="main">{{ post.title }}</h1>
-        <h2 class="support">{{ post.support }}</h2>
+        <time class="date"><span class="highlight">{{ post.date | date: "%A, %B %-d" }}</span></time>
+        <h1 class="main"><span class="highlight">{{ post.title }}</span></h1>
+        <h2 class="support"><span class="highlight">{{ post.support }}</span></h2>
       </header>
-      <i class="fa fa-angle-right more-info"></i>
+      <i class="fa fa-long-arrow-right more-info"></i>
     </div>
   </section>
 </a>

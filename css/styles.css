@@ -6,14 +6,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #7FFFD4;
-    color: #FFF;
+    background: #E5FC44;
     text-shadow: none;
 }
 
 ::selection {
-    background: #7FFFD4;
-    color: #FFF;
+    background: #E5FC44;
     text-shadow: none;
 }
 hr {
@@ -44,6 +42,9 @@ body {
 }
 body.home {
     text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 /* Layout */
@@ -96,6 +97,7 @@ body.home {
 #titlebar a, #menu a {
     color: #222;
     text-decoration: none;
+    border: 0;
 }
 #titlebar {
     text-align: center;
@@ -129,17 +131,25 @@ body.home {
 /* Typography and links */
 
 a {
-    color: #FF7D64;
+    color: #222;
     text-decoration: none;
+    border-bottom: 2px solid #7FFFD4;
+    background-color: transparent;
+}
+a:hover {
+    background-color: #7FFFD4;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.1em;
     margin-bottom: 0.5em;
     letter-spacing: -0.025em;
-    line-height: 1.4;
+    line-height: 1.1;
 }
 h5 {
     margin-bottom: 2em;
+}
+p.lead {
+    font-weight: 700;
 }
 body {
     font-size: 95%;
@@ -184,7 +194,7 @@ section .row {
 }
 .time-label {
     font-size: 0.625em;
-    padding: 0.25em;
+    padding: 0.325em 0.5em;
     border: 2px solid #222;
 }
 .info-link {
@@ -194,34 +204,37 @@ section .row {
 .info-link {
     right: 0;
 }
+.highlight {
+    background-color: #7FFFD4;
+}
 
 /* Shows */
+.list {
+    text-align: center;
+}
 a.show:focus {
     outline: 0;
 }
 a.show {
     display: block;
+    border-bottom: 2px solid #7FFFD4;
 }
-a.show {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.more-info {
-    color: #000;
+a.show:hover {
+    background-color: transparent;
 }
 a.show:last-of-type {
     border-bottom: none;
-}
-.show header {
-    color: #FF7D64;
 }
 .main, .support {
     font-weight: 700;
     line-height: 1.3;
 }
 .main {
+    margin-top: 0;
     margin-bottom: 0.25em;
 }
 .support {
+    margin: 0;
     font-size: 1.25em;
 }
 .date {
@@ -234,11 +247,12 @@ span.time {
     text-transform: none;
 }
 .more-info {
+    color: #000;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1em;
     top: 50%;
-    margin-top: -0.5em;
-    right: 0.66666em;
+    margin-top: -0.75em;
+    right: 1em;
 }
 .fb-share-button span {
     vertical-align: baseline !important;
@@ -264,6 +278,7 @@ span.time {
     color: #000;
     background-color: #7FFFD4;
     padding: 1em 1.325em;
+    border: 0;
 }
 
 /* ==========================================================================
@@ -281,23 +296,6 @@ span.time {
 }
 .banner-wrapper {
     display: table-cell;
-}
-
-/* Image replacement */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
@@ -347,10 +345,6 @@ span.time {
 }
 .clearfix {
     *zoom: 1;
-}
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
