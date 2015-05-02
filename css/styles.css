@@ -141,7 +141,7 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.75em;
     letter-spacing: -0.025em;
     line-height: 1.1;
 }
@@ -257,8 +257,11 @@ span.time {
 .fb-share-button span {
     vertical-align: baseline !important;
 }
+.listen iframe {
+    margin-bottom: 1em;
+}
 .share {
-    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-top: 1em;
 }
 .donate {
     background-color: #0000FF;
