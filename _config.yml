@@ -2,6 +2,6 @@ name:         Downtown Sound 2015
 pygments:     true
 baseurl:      "http://downtownsound.org"
 url:          http://localhost:4000
-permalink:    /:categories/:title/
+permalink:    /:month-:day-:year/
 future:       true
 markdown:     kramdown
