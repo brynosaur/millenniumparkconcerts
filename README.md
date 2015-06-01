@@ -1,7 +1,7 @@
 Millennium Park Summer Concerts
 ===============================
 
-This is the unofficial, 2014, mobile-friendly guide to Millennium Park's wonderful summer concert series.
+This is the unofficial, 2015, mobile-friendly guide to Millennium Park's wonderful summer concert series.
 
 Downtown Sound: New Music Mondays
 ---------------------------------
