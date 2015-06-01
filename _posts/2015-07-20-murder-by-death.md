@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Murder by Death"
+title:  "Murder by Death, Banditos"
 date:   2015-07-20
+main:  "Murder by Death"
 support: "Banditos"
 categories: monday
 track_1: murder_by_death

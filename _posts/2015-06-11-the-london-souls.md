@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "The London Souls"
+title:  "The London Souls, Eggnoise"
 date:   2015-06-11
+main:  "The London Souls"
 support: "Eggnoise"
 categories: thursday
 track_1: the_london_souls

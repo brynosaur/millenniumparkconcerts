@@ -2,6 +2,7 @@
 layout: show
 title:  "Judah & the Lion"
 date:   2015-07-09
+main:  "Judah & the Lion"
 support: "NOTE: 8:00pm start"
 categories: thursday
 track_1: judah_the_lion

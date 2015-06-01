@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "The Very Best"
+title:  "The Very Best, Glass Lux"
 date:   2015-06-04
+main:  "The Very Best"
 support: "Glass Lux"
 categories: thursday
 track_1: the_very_best

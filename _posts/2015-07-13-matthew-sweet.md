@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Matthew Sweet"
+title:  "Matthew Sweet, In Tall Buildings"
 date:   2015-07-13
+main:  "Matthew Sweet"
 support: "In Tall Buildings"
 categories: monday
 track_1: matthew_sweet

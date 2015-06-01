@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Ondatrópica"
+title:  "Ondatrópica, Helado Negro"
 date:   2015-07-16
+main:  "Ondatrópica"
 support: "Helado Negro"
 categories: thursday
 track_1: ondatropica

@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Hayes Carll"
+title:  "Hayes Carll, Mother Falcon"
 date:   2015-06-18
+main:  "Hayes Carll"
 support: "Mother Falcon"
 categories: thursday
 track_1: hayes_carll

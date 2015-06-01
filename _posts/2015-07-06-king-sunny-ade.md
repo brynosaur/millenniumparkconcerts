@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "King Sunny Ade"
+title:  "King Sunny Ade, Mathew Tembo"
 date:   2015-07-06
+main:  "King Sunny Ade"
 support: "Mathew Tembo"
 categories: monday
 track_1: king_sunny_ade

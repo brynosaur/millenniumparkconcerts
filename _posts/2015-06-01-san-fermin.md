@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "San Fermin"
+title:  "San Fermin, Sō Percussion"
 date:   2015-06-01
+main: "San Fermin"
 support: "Sō Percussion"
 categories: monday
 track_1: san_fermin

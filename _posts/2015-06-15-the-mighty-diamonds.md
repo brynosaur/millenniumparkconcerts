@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "The Mighty Diamonds"
+title:  "The Mighty Diamonds, Charlie Organaire"
 date:   2015-06-15
+main:  "The Mighty Diamonds"
 support: "Charlie Organaire"
 categories: monday
 track_1: the_mighty_diamonds

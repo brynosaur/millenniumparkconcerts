@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Active Child"
+title:  "Active Child, Matt Ulery’s In The Ivory featuring eighth blackbird"
 date:   2015-06-22
+main:  "Active Child"
 support: "Matt Ulery’s In The Ivory featuring eighth blackbird"
 categories: monday
 track_1: active_child

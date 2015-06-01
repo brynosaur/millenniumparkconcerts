@@ -1,7 +1,8 @@
 ---
 layout: show
-title:  "Los Cojolites"
+title:  "Los Cojolites, David Wax Museum"
 date:   2015-07-23
+main:  "Los Cojolites"
 support: "David Wax Museum"
 categories: thursday
 track_1: los_cojolites
