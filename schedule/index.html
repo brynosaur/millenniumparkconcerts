@@ -7,22 +7,6 @@ title: Mondays & Thursdays
 
   {% if post.date >= site.time %}
 
-    {{ post.date }}
-
-    {% include show.html %}
-
-  {% endif %}
-
-{% endfor %}
-
-<h2>Past Dates {{ site.time }}</h2>
-
-{% for post in site.posts reversed %}
-
-  {% if post.date <= site.time %}
-
-    {{ post.date }}
-
     {% include show.html %}
 
   {% endif %}
