@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Antibalas, Sonny Knight and The Lakers"
-date:   2015-07-02 23:59:59 -0500
+date:   2015-07-02
 main:  "Antibalas"
 support: "Sonny Knight and The Lakers"
 categories: thursday

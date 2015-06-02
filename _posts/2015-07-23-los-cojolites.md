@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Los Cojolites, David Wax Museum"
-date:   2015-07-23 23:59:59 -0500
+date:   2015-07-23
 main:  "Los Cojolites"
 support: "David Wax Museum"
 categories: thursday

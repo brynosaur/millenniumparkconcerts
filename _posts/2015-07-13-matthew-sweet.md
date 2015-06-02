@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Matthew Sweet, In Tall Buildings"
-date:   2015-07-13 23:59:59 -0500
+date:   2015-07-13
 main:  "Matthew Sweet"
 support: "In Tall Buildings"
 categories: monday

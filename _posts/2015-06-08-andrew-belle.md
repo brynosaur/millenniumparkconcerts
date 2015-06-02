@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Andrew Belle, Birds of Chicago"
-date:   2015-06-08 23:59:59 -0500
+date:   2015-06-08
 main:  "Andrew Belle"
 support: "Birds of Chicago"
 categories: monday

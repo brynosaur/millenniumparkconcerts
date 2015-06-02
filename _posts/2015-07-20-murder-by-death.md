@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Murder by Death, Banditos"
-date:   2015-07-20 23:59:59 -0500
+date:   2015-07-20
 main:  "Murder by Death"
 support: "Banditos"
 categories: monday
