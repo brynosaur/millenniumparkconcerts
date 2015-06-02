@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Snarky Puppy, Third Coast Percussion"
-date:   2015-06-25
+date:   2015-06-25 23:59:59 -0500
 main:  "Snarky Puppy"
 support: "Third Coast Percussion & Friends Celebrate Terry Riley’s “In C”"
 categories: thursday

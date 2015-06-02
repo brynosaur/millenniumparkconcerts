@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "The Very Best, Glass Lux"
-date:   2015-06-04
+date:   2015-06-04 23:59:59 -0500
 main:  "The Very Best"
 support: "Glass Lux"
 categories: thursday

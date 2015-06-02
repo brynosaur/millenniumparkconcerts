@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Ondatrópica, Helado Negro"
-date:   2015-07-16
+date:   2015-07-16 23:59:59 -0500
 main:  "Ondatrópica"
 support: "Helado Negro"
 categories: thursday

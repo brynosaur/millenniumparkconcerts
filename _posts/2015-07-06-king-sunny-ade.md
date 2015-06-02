@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "King Sunny Ade, Mathew Tembo"
-date:   2015-07-06
+date:   2015-07-06 23:59:59 -0500
 main:  "King Sunny Ade"
 support: "Mathew Tembo"
 categories: monday

@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "The Mighty Diamonds, Charlie Organaire"
-date:   2015-06-15
+date:   2015-06-15 23:59:59 -0500
 main:  "The Mighty Diamonds"
 support: "Charlie Organaire"
 categories: monday

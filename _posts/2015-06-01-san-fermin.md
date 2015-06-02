@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "San Fermin, Sō Percussion"
-date:   2015-06-01
+date:   2015-06-01 23:59:59 -0500
 main: "San Fermin"
 support: "Sō Percussion"
 categories: monday

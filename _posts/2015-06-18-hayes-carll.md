@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Hayes Carll, Mother Falcon"
-date:   2015-06-18
+date:   2015-06-18 23:59:59 -0500
 main:  "Hayes Carll"
 support: "Mother Falcon"
 categories: thursday

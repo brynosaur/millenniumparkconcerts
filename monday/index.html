@@ -5,6 +5,10 @@ title: Mondays
 
 {% for post in site.categories.monday reversed %}
 
-{% include show.html %}
+  {% if post.date >= site.time %}
+
+    {% include show.html %}
+
+  {% endif %}
 
 {% endfor %}

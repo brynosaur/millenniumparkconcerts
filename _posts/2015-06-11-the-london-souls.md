@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "The London Souls, Eggnoise"
-date:   2015-06-11
+date:   2015-06-11 23:59:59 -0500
 main:  "The London Souls"
 support: "Eggnoise"
 categories: thursday

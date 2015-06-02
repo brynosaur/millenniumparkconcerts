@@ -1,7 +1,7 @@
 ---
 layout: show
 title:  "Poi Dog Pondering, Caroline Smith"
-date:   2015-06-29
+date:   2015-06-29 23:59:59 -0500
 main:  "Poi Dog Pondering"
 support: "Caroline Smith"
 categories: monday
