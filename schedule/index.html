@@ -5,10 +5,6 @@ title: Mondays & Thursdays
 
 {% for post in site.posts reversed %}
 
-  {% if post.date >= site.time %}
-
     {% include show.html %}
-
-  {% endif %}
 
 {% endfor %}
